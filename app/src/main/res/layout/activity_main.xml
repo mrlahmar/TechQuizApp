@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBg"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/techquizapplogo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/berlinsansfbdemibold"
+            android:gravity="center_horizontal"
+            android:text="@string/intro_text"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/intro_text_size" />
+
+        <Button
+            android:id="@+id/startQuiz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/buttonMarginTop"
+            android:background="@drawable/buttonshape"
+            android:fontFamily="@font/berlinsansfbdemibold"
+            android:text="@string/start_quiz"
+            android:textColor="@color/colorButtonText"
+            android:textSize="@dimen/buttonText" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="@dimen/creditMarginTop"
+        android:fontFamily="@font/berlinsansfbdemibold"
+        android:gravity="center_horizontal"
+        android:text="@string/logo_credit"
+        android:textColor="@color/colorCredit"
+        android:textSize="@dimen/creditTextMain" />
+
+</RelativeLayout>

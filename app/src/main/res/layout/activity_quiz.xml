@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBg"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="@dimen/marginBot">
+            <!-- Question 1 -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/berlinsansfbdemibold"
+                android:gravity="center"
+                android:text="Question 1:"
+                android:textColor="@color/colorQnA"
+                android:textSize="@dimen/intro_text_size" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/berlinsansfbdemibold"
+                android:gravity="center"
+                android:text="@string/qs1"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/intro_text_size" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/berlinsansfbdemibold"
+                android:gravity="center"
+                android:text="@string/answers"
+                android:textColor="@color/colorQnA"
+                android:textSize="@dimen/intro_text_size" />
+
+            <CheckBox
+                android:id="@+id/qs1Ans1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:buttonTint="@android:color/white"
+                android:fontFamily="@font/berlinsansfbdemibold"
+                android:text="@string/qs1Ans1"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/intro_text_size" />
+
+            <CheckBox
+                android:id="@+id/qs1Ans2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:buttonTint="@android:color/white"
+                android:fontFamily="@font/berlinsansfbdemibold"
+                android:text="@string/qs1Ans2"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/intro_text_size" />
+
+            <CheckBox
+                android:id="@+id/qs1Ans3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:buttonTint="@android:color/white"
+                android:fontFamily="@font/berlinsansfbdemibold"
+                android:text="@string/qs1Ans3"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/intro_text_size" />
+
+            <CheckBox
+                android:id="@+id/qs1Ans4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:buttonTint="@android:color/white"
+                android:fontFamily="@font/berlinsansfbdemibold"
+                android:text="@string/qs1Ans4"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/intro_text_size" />
+
+            <!-- Question 2 -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/qsMarginTop"
+                android:fontFamily="@font/berlinsansfbdemibold"
+                android:gravity="center"
+                android:text="Question 2:"
+                android:textColor="@color/colorQnA"
+                android:textSize="@dimen/intro_text_size" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/berlinsansfbdemibold"
+                android:gravity="center"
+                android:text="@string/qs2"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/intro_text_size" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/berlinsansfbdemibold"
+                android:gravity="center"
+                android:text="@string/answers"
+                android:textColor="@color/colorQnA"
+                android:textSize="@dimen/intro_text_size" />
+
+            <CheckBox
+                android:id="@+id/qs2Ans1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:buttonTint="@android:color/white"
+                android:fontFamily="@font/berlinsansfbdemibold"
+                android:text="@string/qs2Ans1"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/intro_text_size" />
+
+            <CheckBox
+                android:id="@+id/qs2Ans2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:buttonTint="@android:color/white"
+                android:fontFamily="@font/berlinsansfbdemibold"
+                android:text="@string/qs2Ans2"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/intro_text_size" />
+
+            <CheckBox
+                android:id="@+id/qs2Ans3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:buttonTint="@android:color/white"
+                android:fontFamily="@font/berlinsansfbdemibold"
+                android:text="@string/qs2Ans3"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/intro_text_size" />
+
+            <CheckBox
+                android:id="@+id/qs2Ans4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:buttonTint="@android:color/white"
+                android:fontFamily="@font/berlinsansfbdemibold"
+                android:text="@string/qs2Ans4"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/intro_text_size" />
+            <!-- Question 3 -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/qsMarginTop"
+                android:fontFamily="@font/berlinsansfbdemibold"
+                android:gravity="center"
+                android:text="Question 3:"
+                android:textColor="@color/colorQnA"
+                android:textSize="@dimen/intro_text_size" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/berlinsansfbdemibold"
+                android:gravity="center"
+                android:text="@string/qs3"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/intro_text_size" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/berlinsansfbdemibold"
+                android:gravity="center"
+                android:text="@string/answers"
+                android:textColor="@color/colorQnA"
+                android:textSize="@dimen/intro_text_size" />
+
+            <CheckBox
+                android:id="@+id/qs3Ans1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:buttonTint="@android:color/white"
+                android:fontFamily="@font/berlinsansfbdemibold"
+                android:text="@string/qs3Ans1"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/intro_text_size" />
+
+            <CheckBox
+                android:id="@+id/qs3Ans2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:buttonTint="@android:color/white"
+                android:fontFamily="@font/berlinsansfbdemibold"
+                android:text="@string/qs3Ans2"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/intro_text_size" />
+
+            <CheckBox
+                android:id="@+id/qs3Ans3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:buttonTint="@android:color/white"
+                android:fontFamily="@font/berlinsansfbdemibold"
+                android:text="@string/qs3Ans3"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/intro_text_size" />
+
+            <CheckBox
+                android:id="@+id/qs3Ans4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:buttonTint="@android:color/white"
+                android:fontFamily="@font/berlinsansfbdemibold"
+                android:text="@string/qs3Ans4"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/intro_text_size" />
+
+            <!-- Question 4 -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/qsMarginTop"
+                android:fontFamily="@font/berlinsansfbdemibold"
+                android:gravity="center"
+                android:text="Question 4:"
+                android:textColor="@color/colorQnA"
+                android:textSize="@dimen/intro_text_size" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/berlinsansfbdemibold"
+                android:gravity="center"
+                android:text="@string/qs4"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/intro_text_size" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/berlinsansfbdemibold"
+                android:gravity="center"
+                android:text="@string/answers"
+                android:textColor="@color/colorQnA"
+                android:textSize="@dimen/intro_text_size" />
+
+            <CheckBox
+                android:id="@+id/qs4Ans1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:buttonTint="@android:color/white"
+                android:fontFamily="@font/berlinsansfbdemibold"
+                android:text="@string/qs4Ans1"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/intro_text_size" />
+
+            <CheckBox
+                android:id="@+id/qs4Ans2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:buttonTint="@android:color/white"
+                android:fontFamily="@font/berlinsansfbdemibold"
+                android:text="@string/qs4Ans2"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/intro_text_size" />
+
+            <CheckBox
+                android:id="@+id/qs4Ans3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:buttonTint="@android:color/white"
+                android:fontFamily="@font/berlinsansfbdemibold"
+                android:text="@string/qs4Ans3"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/intro_text_size" />
+
+            <CheckBox
+                android:id="@+id/qs4Ans4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:buttonTint="@android:color/white"
+                android:fontFamily="@font/berlinsansfbdemibold"
+                android:text="@string/qs4Ans4"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/intro_text_size" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/check_answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonshape"
+            android:fontFamily="@font/berlinsansfbdemibold"
+            android:text="@string/check_answer"
+            android:textColor="@color/colorButtonText"
+            android:textSize="@dimen/buttonText"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</ScrollView>

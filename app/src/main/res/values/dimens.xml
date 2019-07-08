@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="creditTextMain">18sp</dimen>
+    <dimen name="creditTextQuiz">15sp</dimen>
+    <dimen name="buttonText">20sp</dimen>
+    <dimen name="creditMarginTop">100dp</dimen>
+    <dimen name="buttonMarginTop">55dp</dimen>
+    <dimen name="intro_text_size">30sp</dimen>
+    <dimen name="qsMarginTop">55dp</dimen>
+    <dimen name="marginBot">80dp</dimen>
+</resources>

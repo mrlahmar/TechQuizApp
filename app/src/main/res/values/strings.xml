@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Quiz Tech</string>
+    <string name="intro_text">This App is going to ask you some questions about tech companies</string>
+    <string name="start_quiz">Start Quiz</string>
+    <string name="logo_credit">LOGO CREDITS GOES TO EUCALYP</string>
+    <string name="check_answer">Check Answer</string>
+    <string name="answers">Answers:</string>
+    <string name="qs1">Who are the founders of Google?</string>
+    <string name="qs1Ans1">Larry Page</string>
+    <string name="qs1Ans2">Drew Houston</string>
+    <string name="qs1Ans3">Sergey Brin</string>
+    <string name="qs1Ans4">Mark Zuckerberg</string>
+    <string name="qs2">In which year Facebook was Founded?</string>
+    <string name="qs2Ans1">2003</string>
+    <string name="qs2Ans2">2006</string>
+    <string name="qs2Ans3">2004</string>
+    <string name="qs2Ans4">2005</string>
+    <string name="qs3">Who is the Founder of Amazon?</string>
+    <string name="qs3Ans1">Jeff Bezos</string>
+    <string name="qs3Ans2">Warren Buffet</string>
+    <string name="qs3Ans3">Larry Elison</string>
+    <string name="qs3Ans4">Elon Musk</string>
+    <string name="qs4">Who is the Current CEO of Google?</string>
+    <string name="qs4Ans1">Larry Page</string>
+    <string name="qs4Ans2">Sundar Pichai</string>
+    <string name="qs4Ans3">Sergey Brin</string>
+    <string name="qs4Ans4">Eric Schmidt</string>
+</resources>
